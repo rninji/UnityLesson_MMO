@@ -82,3 +82,7 @@ crashlytics-build.properties
 
 # idea
 *.idea
+
+# Assets
+# UnityChan
+Assets/Resources/Art/UnityChan
