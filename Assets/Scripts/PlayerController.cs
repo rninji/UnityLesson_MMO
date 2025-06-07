@@ -5,9 +5,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _speed = 10.0f;
     void Start()
     {
-        Managers mg = Managers.Instance;
         Managers.Input.KeyAction -= OnKeyboard; // 중복 실행 방지
         Managers.Input.KeyAction += OnKeyboard;
+
+        Managers.Resource.Instantiate("Tank");
     }
 
    void Update()
