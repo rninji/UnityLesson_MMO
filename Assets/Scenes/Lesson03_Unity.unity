@@ -258,12 +258,12 @@ GameObject:
   - component: {fileID: 1797585674}
   - component: {fileID: 1797585673}
   m_Layer: 9
-  m_Name: Cube
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1797585673
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -575,6 +575,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1195551550260941701, guid: 2716218bb00d04a37a4d94e8a31284e3, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f91dc8bf090ca4cf48b859aead122d2b, type: 2}
     - target: {fileID: 3245398801627241914, guid: 2716218bb00d04a37a4d94e8a31284e3, type: 3}
       propertyPath: m_Mass
       value: 1
