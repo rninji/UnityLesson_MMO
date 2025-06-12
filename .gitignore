@@ -86,5 +86,7 @@ crashlytics-build.properties
 # Assets
 # UnityChan
 [Aa]ssets/[Rr]esources/Art/UnityChan
+[Aa]ssets/[Rr]esources/Sounds/UnityChan
+
 # UI Sample
 [Aa]ssets/[Rr]esources/Art/Unity\ UI\ Samples/
