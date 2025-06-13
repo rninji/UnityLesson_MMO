@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameScene : BaseScene
@@ -11,6 +12,8 @@ public class GameScene : BaseScene
         
         for (int i = 0; i < 5; i++)
             Managers.Resource.Instantiate("UnityChan");
+
+        Dictionary<int, Stat> stats = Managers.Data.StatDict;
     }
 
     public override void Clear()
